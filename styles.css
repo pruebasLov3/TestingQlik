@@ -1,44 +1,52 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* Fondo en degradado */
-    color: white; /* Color del texto */
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: white;
     font-family: Arial, sans-serif;
 }
 
 .header {
-    text-align: center;
+    display: flex;
+    align-items: center;
     padding: 20px;
 }
 
-.header img {
-    max-width: 200px; /* Ajusta el tamaño del logo */
-    margin-bottom: 20px;
+.logo {
+    max-width: 100px;
+    margin-right: 20px;
 }
 
-.header h1 {
+.title {
+    flex-grow: 1;
+    text-align: left;
     margin: 0;
 }
 
 .full-width {
     width: 100%;
-    margin: 20px 0;
-}
-
-.qvobject {
     height: 300px;
-    margin: 20px auto;
-    max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.2); /* Fondo ligeramente transparente para los objetos QV */
+    margin: 20px 0;
 }
 
 .qvobjects-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.qvobjects-container p {
-    max-width: 400px;
+.qvobject-wrapper {
+    flex-basis: calc(25% - 40px);
+    margin: 20px;
     text-align: center;
+}
+
+.qvobject {
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.qvobject-wrapper p {
+    margin: 10px 0 0;
+    color: black;
 }

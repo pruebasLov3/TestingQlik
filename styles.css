@@ -12,7 +12,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.7); /* Color blanco con 50% de transparencia */
+    background: rgba(255, 255, 255, 0.1); /* Color blanco con 50% de transparencia */
     z-index: 0;
 }
 div.flex-container {

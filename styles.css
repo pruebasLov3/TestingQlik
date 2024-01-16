@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-    background: white; /* Fondo blanco */
+    background: white;
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -13,7 +15,7 @@ body {
 }
 
 .logo {
-    max-width: 150px; /* Logo más grande */
+    max-width: 150px;
     margin-right: 20px;
 }
 
@@ -21,12 +23,14 @@ body {
     margin: 0;
     flex-grow: 1;
     text-align: center;
-    color: #00a896; /* Color azul-verdoso para el título */
+    color: #00a896;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .full-width {
     width: 100%;
-    height: 300px;
+    height: 150px;
     margin: 20px 0;
 }
 
@@ -51,7 +55,9 @@ body {
 .description {
     margin: 10px 0 0;
     color: black;
-    border: 1px solid #ccc; /* Recuadro para la descripción */
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra para el recuadro */
-    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 10px rgba(0, 0,
+0, 0.2);
+padding: 10px;
+font-family: 'Roboto', sans-serif;
 }

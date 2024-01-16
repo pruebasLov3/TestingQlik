@@ -30,34 +30,39 @@ body {
 
 .full-width {
     width: 100%;
-    height: 150px;
+    height: 100px; /* Tamaño vertical reducido para QV01 */
     margin: 20px 0;
 }
 
 .qvobjects-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 0 20px;
+    flex-wrap
+: wrap;
+padding: 0 20px;
 }
 
 .qvobject-wrapper {
-    flex-basis: calc(25% - 40px);
-    margin: 20px;
-    text-align: center;
+flex-basis: calc(50% - 40px); /* Ajuste para los objetos QV06 y QV07 */
+margin: 20px;
+text-align: center;
+}
+
+.qvobject-wrapper.horizontal {
+flex-basis: calc(50% - 40px); /* Ajuste para hacer que ocupen espacio horizontalmente */
 }
 
 .qvobject {
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.2);
+height: 200px;
+background-color: rgba(255, 255, 255, 0.2);
 }
 
 .description {
-    margin: 10px 0 0;
-    color: black;
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 10px rgba(0, 0,
-0, 0.2);
+margin: 10px 0 0;
+color: black;
+border: 1px solid #ccc;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 padding: 10px;
 font-family: 'Roboto', sans-serif;
+text-align: left;
+max-width: 400px; /* Ajuste para que las descripciones estén más cercanas */
 }

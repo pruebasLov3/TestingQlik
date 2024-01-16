@@ -46,11 +46,29 @@ login().then(() => {
         var app = qlik.openApp( 'a60d85e9-aa83-479f-a91c-750f6db1abfc', config );
        
         //get objects -- inserted here --
-        app.visualization.get('rLqjmz').then(function(vis){
+        app.visualization.get('PQmJbW').then(function(vis){
         vis.show("QV01");
         } );
-        app.visualization.get('vmTxP').then(function(vis){
+        app.visualization.get('VnGGMmd').then(function(vis){
         vis.show("QV02");
+        } );
+        app.visualization.get('NVNSXA').then(function(vis){
+        vis.show("QV03");
+        } );
+        app.visualization.get('TRUuNNX').then(function(vis){
+        vis.show("QV04");
+        } );
+        app.visualization.get('shFU').then(function(vis){
+        vis.show("QV05");
+        } );
+        app.visualization.get('vmTxP').then(function(vis){
+        vis.show("QV06");
+        } );
+        app.visualization.get('mJTdp').then(function(vis){
+        vis.show("QV07");
+        } );
+        app.visualization.get('rLqjmz').then(function(vis){
+        vis.show("QV08");
         } );
         
     } );

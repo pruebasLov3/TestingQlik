@@ -4,21 +4,24 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(255,255,255);
-    background: linear-gradient(198deg, rgba(255,255,255,1) 12%, rgba(230,235,237,1) 44%, rgba(224,239,247,1) 69%, rgba(220,221,221,1) 93%);
-}
+    background: linear-gradient(198deg, rgba(255,255,255,1) 7%, rgba(217,217,217,1) 44%, rgba(210,211,212,1) 69%, rgba(186,187,187,1) 93%);}
 
 .header {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 20px;
 }
 
 .logo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
     max-width: 150px;
     margin-right: 20px;
 }
 
 .title {
-    text-align: center;
     font-size: 70px;
     font-weight: 800;
     margin-bottom: 5vh;
@@ -71,7 +74,8 @@ body {
     width: 90%;
 }
 
-.qvobject-wrapper.horizontal {
+.horizontal {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

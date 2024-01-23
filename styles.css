@@ -22,8 +22,8 @@ body {
 
 .logo {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 20px;
+    left: 20px;
     max-width: 150px;
     margin-right: 20px;
 }
@@ -107,6 +107,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    padding: 0 2%;
 }
 
 .container-wrapper-texs h1 {

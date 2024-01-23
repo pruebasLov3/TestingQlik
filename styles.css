@@ -15,16 +15,6 @@ body {
     display: none;
 }
 
-#QV06:target {
-    display: block;
-}
-
-.toggle-link {
-    cursor: pointer;
-    color: blue;
-    text-decoration: underline;
-}
-
 .header {
     display: flex;
     justify-content: center;

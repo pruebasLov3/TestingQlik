@@ -23,7 +23,7 @@
             <div class="container-graphics">
                 <div class="qvobject-wrapper horizontal">
                     <div class="container-wrapper-KPI">
-                        <a href="#QV06" class="toggle-link">Mostrar/Esconder</a>
+                        <button onclick="toggleDiv()">Mostrar/Esconder</button>
                         <div id="QV06" class="qvobject"></div>
                     </div>
                     <div class="container-wrapper-texs">
@@ -120,4 +120,11 @@
             </div>
         </div>
     </body>
+
+    <script>
+        function toggleDiv() {
+            var div = document.getElementById('QV06');
+            div.style.display = (div.style.display === 'none') ? 'block' : 'none';
+        }
+    </script>
 </html>

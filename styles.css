@@ -83,15 +83,12 @@ body {
 .container-graphics {
     display: flex;
     flex-direction: column;
-    width: 90%;
 }
 
 .horizontal {
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-basis: calc(50% - 40px);
 }
 

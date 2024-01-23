@@ -3,15 +3,26 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
-        198deg,
-        rgba(255, 255, 255, 1) 7%,
-        rgba(247, 245, 245, 1) 44%,
-        rgba(247, 241, 241, 1) 69%,
-        rgba(235, 240, 240, 1) 93%
-    );
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,48,87,1) 100%); 
     min-height: 1100vh;
+}
+
+.container-wrapper-KPI {
+    margin: 20px;
+}
+
+#QV06 {
+    display: none;
+}
+
+#QV06:target {
+    display: block;
+}
+
+.toggle-link {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
 }
 
 .header {
@@ -34,6 +45,7 @@ body {
     font-weight: 800;
     margin-bottom: 5vh;
     font-family: "Roboto", sans-serif;
+    color: #fff;
 
     @media (max-width: 1250px) {
         font-size: 60px;
@@ -113,7 +125,7 @@ body {
 
 .container-wrapper-texs h1 {
     font-size: 30px;
-
+    color: #fff;
     @media screen and (max-width: 750px) {
         font-size: 25px;
     }
@@ -130,7 +142,7 @@ body {
 .container-wrapper-texs p {
     font-size: 18px;
     margin: 0;
-
+    color: #fff;
     @media screen and (max-width: 1250px) {
         font-size: 15px;
         text-align: center;

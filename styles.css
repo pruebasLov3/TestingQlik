@@ -7,13 +7,7 @@ body {
     min-height: 1100vh;
 }
 
-.container-wrapper-KPI {
-    margin: 20px;
-}
 
-#QV06 {
-    display: none;
-}
 
 .header {
     display: flex;
@@ -62,6 +56,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#QV06 {
+    display: none;
 }
 
 .width-filter {

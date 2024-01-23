@@ -16,14 +16,16 @@
             <img src="./Logo.png" alt="Logo" class="logo" />
             <h1 class="title">App Testing Mashup</h1>
         </div>
-        <div class="container-filters">
-            <div id="QV01" class="qvobject width-filter"></div>
-        </div>
+
+    <div class="container-filters">
+        <button onclick="toggleDiv()">Mostrar/Esconder</button>
+        <div id="QV01" class="qvobject"></div>
+    </div>
+
         <div class="qvobjects-container">
             <div class="container-graphics">
                 <div class="qvobject-wrapper horizontal">
                     <div class="container-wrapper-KPI">
-                        <button onclick="toggleDiv()">Mostrar/Esconder</button>
                         <div id="QV06" class="qvobject"></div>
                     </div>
                     <div class="container-wrapper-texs">
@@ -86,7 +88,7 @@
                     </div>
                 </div>
 
-                <div class="qvobject-wrapper horizontal">
+                                <div class="qvobject-wrapper horizontal">
                     <div class="container-wrapper-KPI">
                         <div id="QV06" class="qvobject"></div>
                     </div>
@@ -123,7 +125,7 @@
 
     <script>
         function toggleDiv() {
-            var div = document.getElementById('QV06');
+            var div = document.getElementById('QV01');
             div.style.display = (div.style.display === 'none') ? 'block' : 'none';
         }
     </script>

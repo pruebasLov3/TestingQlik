@@ -62,7 +62,7 @@ body {
 }
 
 .width-filter {
-    width: 80%;
+    width: 30%;
     height: 100px;
     margin: 20px 0;
 }
@@ -155,15 +155,4 @@ body {
 .qvobject {
     height: 200px;
     background-color: rgba(255, 255, 255, 0.2);
-}
-
-.description {
-    margin: 10px 0 0;
-    color: black;
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    font-family: "Roboto", sans-serif;
-    text-align: left;
-    max-width: 400px; /* Las descripciones están más cerca de los objetos */
 }

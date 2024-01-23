@@ -86,7 +86,6 @@ body {
 }
 
 .horizontal {
-    position: relative;
     width: 100%;
     display: flex;
     flex-basis: calc(50% - 40px);
@@ -97,7 +96,6 @@ body {
 }
 
 .container-wrapper-texs {
-    position: absolute;
     top: 0;
     width: 40%;
     display: flex;

@@ -22,7 +22,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 5vh 0;
-    gap: 5vh;
+    gap: 10vh;
 }
 
 .logo {

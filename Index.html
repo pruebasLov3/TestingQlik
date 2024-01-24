@@ -15,15 +15,23 @@
         <title>Testing Mashup</title>
     </head>
     <body>
-        <div class="header">
+        <header>
             <img src="./Logo.png" alt="Logo" class="logo" />
             <h1 class="title">App Testing Mashup</h1>
-        </div>
-        <div class="container-filters">
-            <div id="QV01" class="qvobject width-filter"></div>
-        </div>
-            <div id="QV02" class="qvobject width-filter" ></div>
-            <div id="QV03" class="qvobject width-filter"></div>
-            <div id="QV04" class="qvobject width-filter"></div>
+        </header>
+        <main>
+            <section class="container-filters">
+                <div id="QV01" class="qvobject filter"></div>
+            </section>
+            <section class="container-kpis">
+                <div class="container-kpis-nested">
+                    <div class="container-two-kpis">
+                        <div id="QV02" class="qvobject width-kpi"></div>
+                        <div id="QV03" class="qvobject width-kpi"></div>
+                    </div>
+                    <div id="QV04" class="qvobject width-graphic"></div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

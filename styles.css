@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
 }
 
-.header {
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,21 +48,48 @@ body {
     }
 }
 
+/* KPI 1 Filters */
+
 .container-filters {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.width-filter {
+.filter {
     width: 50%;
     height: 100px;
+}
+
+/* KP1 nested */
+
+.container-kpis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-kpis-nested{
+    display: flex;
+}
+
+.container-two-kpis{
+    display: flex;
+    flex-direction: column;
+}
+
+.width-kpi{
+    width: 50%;
+}
+
+.width-graphic{
+    width: 50%;
 }
 
 .container-wrapper-texs h1 {
     font-size: 30px;
     color: #fff;
-    
+
     @media screen and (max-width: 750px) {
         font-size: 25px;
     }

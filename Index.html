@@ -20,9 +20,10 @@
             <h1 class="title">App Testing Mashup</h1>
         </header>
         <main>
-            <section class="container-filters">
+            <section class="container-filters" id="filtersSection">
                 <div id="QV01" class="qvobject filter"></div>
             </section>
+    
             <section class="container-kpis">
                 <div class="sub-container-kpis">
                     <div class="container-kpis-nested">
@@ -51,4 +52,17 @@
             </section>
         </main>
     </body>
+
+    <script>
+        function toggleFilters() {
+            var filtersSection = document.getElementById('filtersSection');
+            filtersSection.classList.toggle('hidden');
+        }
+
+        var toggleButton = document.createElement('button');
+        toggleButton.textContent = 'Toggle Filters';
+        toggleButton.addEventListener('click', toggleFilters);
+
+        document.body.appendChild(toggleButton);
+    </script>
 </html>

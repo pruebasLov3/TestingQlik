@@ -50,6 +50,10 @@ header {
 
 /* KPI 1 Filters */
 
+.hidden {
+    display: none;
+}
+
 .container-filters {
     display: flex;
     justify-content: center;

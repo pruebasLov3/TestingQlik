@@ -9,6 +9,7 @@ body {
         rgba(28, 48, 87, 1) 100%
     );
     min-height: 100vh;
+    padding: 10vh 0;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 
 .main {
     padding: 5vh 0;
+    gap: 5vh;
 }
 
 .logo {
@@ -106,7 +108,7 @@ header {
     gap: 1%;
 }
 
-.container-two-kpis {
+.container-individual-kpi {
     width: 50%;
     gap: 2%;
     display: flex;
@@ -133,28 +135,24 @@ header {
 .container-texs-and-buttoms h1 {
     background: #f0f3f4;
     padding: 1%;
-
-    font-size: 18px;
+    font-size: 15px;
     color: #000;
-    @media screen and (max-width: 1250px) {
-        font-size: 15px;
+
+    @media (max-width: 1250px) {
+        font-size: 13px;
         text-align: center;
     }
 
-    @media screen and (max-width: 1000px) {
-        font-size: 20px;
-    }
-
-    @media screen and (max-width: 750px) {
+    @media (max-width: 750px) {
         font-size: 15px;
     }
 
-    @media screen and (max-width: 600px) {
-        font-size: 5vw;
+    @media (max-width: 600px) {
+        font-size: 3vw;
     }
 
-    @media screen and (max-width: 400px) {
-        font-size: 6vw;
+    @media (max-width: 400px) {
+        font-size: 5vw;
     }
 }
 
@@ -175,15 +173,15 @@ header {
     font-size: 30px;
     color: #000;
 
-    @media screen and (max-width: 750px) {
+    @media (max-width: 750px) {
         font-size: 25px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media (max-width: 600px) {
         font-size: 5vw;
     }
 
-    @media screen and (max-width: 400px) {
+    @media (max-width: 400px) {
         font-size: 6vw;
     }
 }
@@ -191,24 +189,24 @@ header {
 .container-texts-kpis p {
     font-size: 18px;
     color: #000;
-    @media screen and (max-width: 1250px) {
+    @media (max-width: 1250px) {
         font-size: 15px;
         text-align: center;
     }
 
-    @media screen and (max-width: 1000px) {
+    @media (max-width: 1000px) {
         font-size: 20px;
     }
 
-    @media screen and (max-width: 750px) {
+    @media (max-width: 750px) {
         font-size: 15px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media (max-width: 600px) {
         font-size: 5vw;
     }
 
-    @media screen and (max-width: 400px) {
+    @media (max-width: 400px) {
         font-size: 6vw;
     }
 }

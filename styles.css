@@ -85,16 +85,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    gap: 10%;
+    width: 80%;
+    gap: 2%;
 }
 
 .container-kpis-nested {
     display: flex;
-    gap: 2%;
+    gap: 1vh;
     flex-direction: column;
     width: 60%;
-    padding: 3% 5%;
+    padding: 1% 2%;
     background: #d0d3d4;
     -webkit-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
     -moz-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
@@ -140,7 +140,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 40%;
-    padding: 2% 3%;
+    padding: 1% 2%;
     background: #f0f3f4;
     -webkit-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
     -moz-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);

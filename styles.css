@@ -82,16 +82,17 @@ header {
 
 .width-kpi{
     width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 .width-graphic{
     width: 80%;
-    height: auto;
+    height: 300px;
 }
 
 .container-texts-kpis{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;

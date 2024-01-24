@@ -11,7 +11,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
 }
 
 .logo {
@@ -26,7 +25,6 @@ body {
     font-size: 70px;
     font-weight: 800;
     margin-bottom: 5vh;
-
     color: #fff;
 
     @media (max-width: 1250px) {
@@ -59,13 +57,12 @@ body {
 .width-filter {
     width: 50%;
     height: 100px;
-    margin: 20px 0;
 }
-
 
 .container-wrapper-texs h1 {
     font-size: 30px;
     color: #fff;
+    
     @media screen and (max-width: 750px) {
         font-size: 25px;
     }

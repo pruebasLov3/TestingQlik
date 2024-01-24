@@ -72,7 +72,7 @@ header {
 
 .container-kpis-nested{
     display: flex;
-    width: 90%;
+    width: 60%;
 }
 
 .container-two-kpis{
@@ -91,7 +91,11 @@ header {
     height: 100px;
 }
 
-.container-wrapper-texs h1 {
+.container-texts-kpis{
+    width: 40%;
+}
+
+.container-texts-kpis h1 {
     font-size: 30px;
     color: #fff;
 
@@ -108,7 +112,7 @@ header {
     }
 }
 
-.container-wrapper-texs p {
+.container-texts-kpis p {
     font-size: 18px;
     margin: 0;
     color: #fff;

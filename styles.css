@@ -63,29 +63,17 @@ body {
 }
 
 .qvobjects-container {
-    display: flex;
-    flex-direction: column;
 }
 
 .qvobject-wrapper {
-    display: flex;
-    flex-basis: calc(25% - 40px);
-    margin: 20px;
-    text-align: center;
 }
 
 .container-graphics {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .horizontal {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .container-wrapper-KPI {
@@ -95,14 +83,7 @@ body {
 }
 
 .container-wrapper-texs {
-    top: 0;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 2%;
-    gap: 3vh;
+
 }
 
 .container-wrapper-texs h1 {

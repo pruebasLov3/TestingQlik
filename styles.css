@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,48,87,1) 100%); 
-    min-height: 1100vh;
+    min-height: 100vh;
 }
 
 .header {
@@ -62,29 +62,6 @@ body {
     margin: 20px 0;
 }
 
-.qvobjects-container {
-}
-
-.qvobject-wrapper {
-}
-
-.container-graphics {
-
-}
-
-.horizontal {
-
-}
-
-.container-wrapper-KPI {
-}
-
-.container-KPI{
-}
-
-.container-wrapper-texs {
-
-}
 
 .container-wrapper-texs h1 {
     font-size: 30px;

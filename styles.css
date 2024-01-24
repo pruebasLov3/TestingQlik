@@ -3,7 +3,11 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,48,87,1) 100%); 
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(28, 48, 87, 1) 100%
+    );
     min-height: 100vh;
 }
 
@@ -13,7 +17,7 @@ header {
     align-items: center;
 }
 
-.main{
+.main {
     padding: 5vh 0;
 }
 
@@ -71,72 +75,73 @@ header {
 
 /* KP1 nested */
 
-.container-kpis{
+.container-kpis {
     display: flex;
-    gap: 10%;
     justify-content: center;
     align-items: center;
-    padding: 3% 5% ;
 }
 
-.sub-container-kpis{
+.sub-container-kpis {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
-
-
+    gap: 10%;
 }
 
-.container-kpis-nested{
+.container-kpis-nested {
     display: flex;
     gap: 2%;
     flex-direction: column;
     width: 60%;
-    background: #D0D3D4;
-    border-radius: 25px;
+    padding: 3% 5%;
+    background: #d0d3d4;
     -webkit-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
     -moz-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
     box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
 }
 
-.sub-container-kpis-nested{
+.sub-container-kpis-nested {
     display: flex;
     gap: 2%;
 }
 
-.container-two-kpis{
+.container-two-kpis {
     width: 50%;
+    gap: 2%;
     display: flex;
     flex-direction: column;
 }
 
-.width-kpi{
+.width-kpi {
     width: 100%;
-    height: 120px;
-    background: #F0F3F4;
+    height: 150px;
+    background: #f0f3f4;
 }
 
-.width-graphic{
+.width-graphic {
     width: 50%;
     height: 300px;
-    background: #F0F3F4;
+    background: #f0f3f4;
 }
 
-.container-texs-and-buttoms{
+.container-texs-and-buttoms {
     display: flex;
     justify-content: space-between;
 }
 
-.container-texts-kpis{
+.container-texs-and-buttoms h1 {
+    background: #f0f3f4;
+}
+
+.container-texts-kpis {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
-    padding: 2% 3% ;
-    border-radius: 25px;
-    background: #F0F3F4;
+    padding: 2% 3%;
+    background: #f0f3f4;
     -webkit-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
     -moz-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
     box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);

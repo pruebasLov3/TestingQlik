@@ -26,11 +26,9 @@
             <h1 class="title">App Testing Mashup</h1>
         </header>
         <main>
-            <section class="container-filters" >
+            <section class="container-filters">
                 <button onclick="toggleFilters()">Toggle Filters</button>
-                <div id="filtersSection">
-                    <div id="QV01" class="qvobject filter"></div>
-                </div>
+                <div id="QV01" class="qvobject filter filtersSection"></div>
             </section>
     
             <section class="container-kpis">
@@ -64,7 +62,7 @@
 
     <script>
         function toggleFilters() {
-            var filtersSection = document.getElementById('filtersSection');
+            var filtersSection = document.getElementsByClassName('filtersSection');
             filtersSection.classList.toggle('hidden');
         }
     </script>

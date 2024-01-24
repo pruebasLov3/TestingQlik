@@ -20,6 +20,8 @@ header {
 
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 5vh 0;
     gap: 10vh;
@@ -131,6 +133,7 @@ main {
     flex-direction: column;
     width: 60%;
     padding: 1%;
+    background: #fff;
 }
 
 .sub-container-kpis-nested {
@@ -196,6 +199,7 @@ main {
     align-items: center;
     width: 40%;
     padding: 1%;
+    background: #fff;
 }
 
 .container-texts-kpis h1 {

@@ -91,6 +91,7 @@ main {
     border-radius: 10px;
     text-decoration-line: none;
     background-color: #007bff;
+    font-family: 'Quicksand', sans-serif;
 
     @media (max-width: 750px) {
         font-size: 15px;

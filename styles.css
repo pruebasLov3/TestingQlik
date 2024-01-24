@@ -94,7 +94,7 @@ header {
     gap: 1vh;
     flex-direction: column;
     width: 60%;
-    padding: 2% 2%;
+    padding: 1%;
     background: #d0d3d4;
     -webkit-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
     -moz-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
@@ -133,6 +133,29 @@ header {
 .container-texs-and-buttoms h1 {
     background: #f0f3f4;
     padding: 1%;
+
+    font-size: 18px;
+    color: #000;
+    @media screen and (max-width: 1250px) {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 1000px) {
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 750px) {
+        font-size: 15px;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 5vw;
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: 6vw;
+    }
 }
 
 .container-texts-kpis {
@@ -141,7 +164,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 40%;
-    padding: 2%;
+    padding: 1%;
     background: #f0f3f4;
     -webkit-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
     -moz-box-shadow: 0px 0px 29px 3px rgba(94, 85, 250, 1);
@@ -167,7 +190,6 @@ header {
 
 .container-texts-kpis p {
     font-size: 18px;
-    margin: 0;
     color: #000;
     @media screen and (max-width: 1250px) {
         font-size: 15px;

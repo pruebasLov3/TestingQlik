@@ -76,18 +76,18 @@ header {
 }
 
 .container-two-kpis{
-    width: 50%;
+    width: 20%;
     display: flex;
     flex-direction: column;
 }
 
 .width-kpi{
-    width: 50%;
+    width: 100%;
     height: 100px;
 }
 
 .width-graphic{
-    width: 50%;
+    width: 80%;
     height: 100px;
 }
 

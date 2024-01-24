@@ -124,13 +124,13 @@ main {
 }
 
 .kpi-only {
-    width: 80%;
+    width: 100%;
     height: 300px;
     background: #f0f3f4;
 }
 
 .width-graphic {
-    width: 70%;
+    width: 80%;
     height: 300px;
     background: #f0f3f4;
 }

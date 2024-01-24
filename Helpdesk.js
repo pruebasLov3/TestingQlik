@@ -50,17 +50,41 @@ login().then(() => {
         app.visualization.get('8c98dd8c-ef7c-4d83-815c-5d6d66cc38c8').then(function(vis){
         vis.show("QV01");
         } );
-        app.visualization.get('JPXamu').then(function(vis){
+        //KPI 1
+        app.visualization.get('GBLJKtx').then(function(vis){
         vis.show("QV02");
         } );
-        app.visualization.get('68ae8b51-deba-4158-b2b9-e167bee7d2b0').then(function(vis){
+        //KPI 2
+        app.visualization.get('ZCLQBPG').then(function(vis){
         vis.show("QV03");
         } );
-        app.visualization.get(' 638dc443-e7d1-4934-b23e-d9075e05317a').then(function(vis){
+        //Gráfico 1
+        app.visualization.get('zBcmzpG').then(function(vis){
         vis.show("QV04");
         } );
-        app.visualization.get('71794456-cc5e-4e23-8b9d-131082af6e59').then(function(vis){
+        //KPI 3
+        app.visualization.get('MYmhma').then(function(vis){
         vis.show("QV05");
+        } );
+        //Gráfico 2
+        app.visualization.get('FpTyJdu').then(function(vis){
+        vis.show("QV06");
+        } );
+        //KPI 4
+        app.visualization.get('gThLYJ').then(function(vis){
+        vis.show("QV07");
+        } );
+        //Gráfico 3
+        app.visualization.get('CZJfTTS').then(function(vis){
+        vis.show("QV08");
+        } );
+        //KPI 5
+        app.visualization.get('DvkaxfW').then(function(vis){
+        vis.show("QV09");
+        } );
+        //Gráfico 4
+        app.visualization.get('PdPucF').then(function(vis){
+        vis.show("QV10");
         } );
         
     } );

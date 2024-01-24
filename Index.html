@@ -13,6 +13,12 @@
             content="user-scalable=no, width=device-width, initial-scale=1"
         />
         <title>Testing Mashup</title>
+
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -21,6 +27,7 @@
         </header>
         <main>
             <section class="container-filters" id="filtersSection">
+                <button onclick="toggleFilters()">Toggle Filters</button>
                 <div id="QV01" class="qvobject filter"></div>
             </section>
     
@@ -58,11 +65,5 @@
             var filtersSection = document.getElementById('filtersSection');
             filtersSection.classList.toggle('hidden');
         }
-
-        var toggleButton = document.createElement('button');
-        toggleButton.textContent = 'Toggle Filters';
-        toggleButton.addEventListener('click', toggleFilters);
-
-        document.body.appendChild(toggleButton);
     </script>
 </html>

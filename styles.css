@@ -7,8 +7,6 @@ body {
     min-height: 1100vh;
 }
 
-
-
 .header {
     display: flex;
     justify-content: center;
@@ -93,7 +91,13 @@ body {
 }
 
 .container-wrapper-KPI {
+    display: flex;
     width: 60%;
+}
+
+.container-kpi{
+    display: flex;
+    flex-direction: column;
 }
 
 .container-wrapper-texs {
@@ -148,9 +152,4 @@ body {
     @media screen and (max-width: 400px) {
         font-size: 6vw;
     }
-}
-
-.qvobject {
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.2);
 }

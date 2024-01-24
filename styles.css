@@ -80,10 +80,12 @@ header {
 
 .width-kpi{
     width: 50%;
+    height: 100px;
 }
 
 .width-graphic{
     width: 50%;
+    height: 100px;
 }
 
 .container-wrapper-texs h1 {

@@ -78,8 +78,14 @@ header {
 
 .container-kpis-nested{
     display: flex;
+    flex-direction: column;
     width: 60%;
 }
+
+.sub-container-kpis-nested{
+    display: flex;
+}
+
 .container-two-kpis{
     width: 50%;
     display: flex;
@@ -88,12 +94,17 @@ header {
 
 .width-kpi{
     width: 100%;
-    height: 150px;
+    height: 120px;
 }
 
 .width-graphic{
     width: 50%;
     height: 300px;
+}
+
+.container-texs-and-buttoms{
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-texts-kpis{

@@ -131,20 +131,20 @@ main {
 
 @media (max-width: 750px) {
     .button-filters {
-        font-size: 15px;
+        font-size: 18px;
         padding: 3%;
     }
 }
 
 @media (max-width: 600px) {
     .button-filters {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 }
 
 @media (max-width: 400px) {
     .button-filters {
-        font-size: 6vw;
+        font-size: 5vw;
     }
 }
 
@@ -318,6 +318,10 @@ main {
         gap: 10vh;
     }
 
+    .filter {
+        width: 70%;
+    }
+
     .sub-container-kpis {
         flex-direction: column;
         gap: 2vh;
@@ -356,6 +360,10 @@ main {
 }
 
 @media (max-width: 700px) {
+    .filter {
+        width: 80%;
+    }
+
     .container-kpis-nested {
         width: 80%;
     }
@@ -381,6 +389,10 @@ main {
 }
 
 @media (max-width: 600px) {
+    .filter {
+        width: 85%;
+    }
+
 
     main{
         gap: 5vh;
@@ -411,6 +423,11 @@ main {
 }
 
 @media (max-width: 500px) {
+    
+    .filter {
+        width: 90%;
+    }
+    
     .container-kpis-nested {
         width: 90%;
     }

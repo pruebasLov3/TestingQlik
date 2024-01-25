@@ -3,9 +3,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right,hsla(218, 61%, 32%, 1) 0%, hsla(0, 0%, 0%, 0.573)),url("./background.jpg");
+    background: linear-gradient(to right, hsla(218, 61%, 32%, 1) 0%, hsla(0, 0%, 0%, 0.573)), url("./background.jpg");
     background-size: cover;
-    background-attachment: fixed;  
+    background-attachment: fixed;
     min-height: 100vh;
     padding: 2vh 0;
 }
@@ -38,23 +38,34 @@ main {
     margin-bottom: 5vh;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
-    @media (max-width: 1250px) {
+}
+
+@media (max-width: 1250px) {
+    .title {
         font-size: 60px;
     }
+}
 
-    @media (max-width: 1000px) {
+@media (max-width: 1000px) {
+    .title {
         font-size: 40px;
     }
+}
 
-    @media (max-width: 750px) {
+@media (max-width: 750px) {
+    .title {
         font-size: 45px;
     }
+}
 
-    @media (max-width: 550px) {
+@media (max-width: 550px) {
+    .title {
         font-size: 10vw;
     }
+}
 
-    @media (max-width: 250px) {
+@media (max-width: 250px) {
+    .title {
         font-size: 11vw;
     }
 }
@@ -90,17 +101,23 @@ main {
     text-decoration-line: none;
     background-color: #CACFD2;
     font-family: 'Quicksand', sans-serif !important;
+}
 
-    @media (max-width: 750px) {
+@media (max-width: 750px) {
+    .button-filters {
         font-size: 15px;
         padding: 3%;
     }
+}
 
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
+    .button-filters {
         font-size: 5vw;
     }
+}
 
-    @media (max-width: 400px) {
+@media (max-width: 400px) {
+    .button-filters {
         font-size: 6vw;
     }
 }
@@ -124,6 +141,12 @@ main {
     align-items: center;
     width: 95%;
     gap: 2%;
+}
+
+@media (max-width: 800px) {
+    .sub-container-kpis {
+        flex-direction: column;
+    }
 }
 
 .container-kpis-nested {
@@ -172,20 +195,29 @@ main {
     font-size: 15px;
     color: #000;
     font-family: 'Quicksand', sans-serif;
-    @media (max-width: 1250px) {
+}
+
+@media (max-width: 1250px) {
+    .container-texs-and-buttoms h1 {
         font-size: 13px;
         text-align: center;
     }
+}
 
-    @media (max-width: 750px) {
+@media (max-width: 750px) {
+    .container-texs-and-buttoms h1 {
         font-size: 15px;
     }
+}
 
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
+    .container-texs-and-buttoms h1 {
         font-size: 3vw;
     }
+}
 
-    @media (max-width: 400px) {
+@media (max-width: 400px) {
+    .container-texs-and-buttoms h1 {
         font-size: 5vw;
     }
 }
@@ -204,15 +236,22 @@ main {
     font-size: 30px;
     color: #000;
     font-family: 'Quicksand', sans-serif;
-    @media (max-width: 750px) {
+}
+
+@media (max-width: 750px) {
+    .container-texts-kpis h1 {
         font-size: 25px;
     }
+}
 
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
+    .container-texts-kpis h1 {
         font-size: 5vw;
     }
+}
 
-    @media (max-width: 400px) {
+@media (max-width: 400px) {
+    .container-texts-kpis h1 {
         font-size: 6vw;
     }
 }
@@ -220,24 +259,35 @@ main {
 .container-texts-kpis p {
     font-size: 18px;
     color: #000;
-    @media (max-width: 1250px) {
+}
+
+@media (max-width: 1250px) {
+    .container-texts-kpis p {
         font-size: 15px;
         text-align: center;
     }
-    font-family: 'Quicksand', sans-serif;
-    @media (max-width: 1000px) {
+}
+
+@media (max-width: 1000px) {
+    .container-texts-kpis p {
         font-size: 20px;
     }
+}
 
-    @media (max-width: 750px) {
+@media (max-width: 750px) {
+    .container-texts-kpis p {
         font-size: 15px;
     }
+}
 
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
+    .container-texts-kpis p {
         font-size: 5vw;
     }
+}
 
-    @media (max-width: 400px) {
+@media (max-width: 400px) {
+    .container-texts-kpis p {
         font-size: 6vw;
     }
 }

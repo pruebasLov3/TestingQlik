@@ -83,7 +83,7 @@ main {
     border: none;
     cursor: pointer;
     gap: 2%;
-    color: #fff;
+    color: #CACFD2;
     padding: 1% 2%;
     border-radius: 10px;
     text-decoration-line: none;
@@ -131,7 +131,6 @@ main {
     flex-direction: column;
     width: 60%;
     padding: 1%;
-    background: #778899;
 }
 
 .sub-container-kpis-nested {

@@ -24,7 +24,7 @@ main {
     gap: 10vh;
 }
 
-.LogoImage {
+.logo {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -33,13 +33,13 @@ main {
 }
 
 @media (max-width: 1000px) {
-    .LogoImage {
+    .logo {
         max-width: 100px;
     }
 }
 
 @media (max-width: 600px) {
-    .LogoImage {
+    .logo {
         max-width: 50%;
     }
 }
@@ -300,13 +300,23 @@ main {
 
 
 @media (max-width: 800px) {
+    .sub-container-kpis-nested {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 800px) {
     .sub-container-kpis {
         flex-direction: column;
+        gap: 2vh;
     }
 
     .container-kpis-nested {
         width: 95%;
     }
+
+
 
     .container-texts-kpis {
         width: 95%;

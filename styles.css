@@ -134,7 +134,7 @@ main {
 @media (max-width: 750px) {
     .button-filters {
         font-size: 18px;
-        padding: 3%;
+        padding: 2%;
     }
 }
 
@@ -321,7 +321,7 @@ main {
     }
 
     .container-filters {
-        height: 10vh;
+        height: 20vh;
     }
 
     .filter {
@@ -391,6 +391,7 @@ main {
 
     .container-texts-kpis {
         width: 80%;
+        padding: 1% 2%;
     }
 }
 

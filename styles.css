@@ -24,7 +24,7 @@ main {
     gap: 10vh;
 }
 
-.logo {
+.LogoImage {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -32,8 +32,20 @@ main {
     margin-right: 20px;
 }
 
+@media (max-width: 1000px) {
+    .LogoImage {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .LogoImage {
+        max-width: 50%;
+    }
+}
+
 .title {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 800;
     margin-bottom: 5vh;
     color: #fff;
@@ -42,7 +54,7 @@ main {
 
 @media (max-width: 1250px) {
     .title {
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 
@@ -54,19 +66,19 @@ main {
 
 @media (max-width: 750px) {
     .title {
-        font-size: 45px;
+        font-size: 35px;
     }
 }
 
 @media (max-width: 550px) {
     .title {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 }
 
 @media (max-width: 250px) {
     .title {
-        font-size: 11vw;
+        font-size: 9vw;
     }
 }
 
@@ -141,12 +153,6 @@ main {
     align-items: center;
     width: 95%;
     gap: 2%;
-}
-
-@media (max-width: 800px) {
-    .sub-container-kpis {
-        flex-direction: column;
-    }
 }
 
 .container-kpis-nested {
@@ -289,5 +295,20 @@ main {
 @media (max-width: 400px) {
     .container-texts-kpis p {
         font-size: 6vw;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .sub-container-kpis {
+        flex-direction: column;
+    }
+
+    .container-kpis-nested {
+        width: 95%;
+    }
+
+    .container-texts-kpis {
+        width: 95%;
     }
 }

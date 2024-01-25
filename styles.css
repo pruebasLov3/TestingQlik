@@ -104,6 +104,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 95%;
+   
 }
 
 .hidden {
@@ -128,6 +129,7 @@ main {
     background-color: #cacfd2;
     font-family: "Quicksand", sans-serif !important;
 }
+
 
 @media (max-width: 750px) {
     .button-filters {
@@ -316,6 +318,10 @@ main {
 
     main{
         gap: 10vh;
+    }
+
+    .container-filters {
+        height: 10%;
     }
 
     .filter {

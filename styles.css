@@ -313,6 +313,11 @@ main {
 }
 
 @media (max-width: 800px) {
+
+    main{
+        gap: 10vh;
+    }
+
     .sub-container-kpis {
         flex-direction: column;
         gap: 2vh;
@@ -376,6 +381,11 @@ main {
 }
 
 @media (max-width: 600px) {
+
+    main{
+        gap: 5vh;
+    }
+
     .container-kpis-nested {
         width: 85%;
     }

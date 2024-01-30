@@ -43,9 +43,15 @@ main {
     }
 }
 
+@media (max-width: 800px) {
+    .logo {
+        max-width: 140px;
+    }
+}
+
 @media (max-width: 600px) {
     .logo {
-        max-width: 40%;
+        max-width: 30%;
     }
 }
 
@@ -153,7 +159,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 95%;
 }
 
 .sub-container-kpis {
@@ -161,7 +167,6 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 2%;
 }
 
 .container-kpis-nested {

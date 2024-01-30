@@ -158,7 +158,6 @@ main {
 
 .sub-container-kpis {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -169,7 +168,7 @@ main {
     display: flex;
     gap: 1vh;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     padding: 1%;
     background: #fff;
 }

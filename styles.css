@@ -153,6 +153,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 95%;
 }
 
 .sub-container-kpis {
@@ -166,6 +167,7 @@ main {
 
 .container-kpis-nested {
     display: flex;
+    flex-direction: column;
     gap: 1vh;
     flex-direction: column;
     width: 60%;

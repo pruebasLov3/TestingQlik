@@ -123,10 +123,9 @@ main {
     gap: 2%;
     color: #000;
     font-weight: bold;
-    padding: 5px 20px;
-    border-radius: 10px;
+    padding: 5px 50px;
     text-decoration-line: none;
-    background-color: #cacfd2;
+    background-color: #ffffff;
     font-family: "Quicksand", sans-serif !important;
 }
 

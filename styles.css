@@ -161,7 +161,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 95%;
-    gap: 2.25%;
+    gap: 2.25vh;
 }
 
 .sub-container-kpis {

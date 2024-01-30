@@ -248,10 +248,6 @@ main {
 
 @media (max-width: 800px) {
 
-    main{
-        gap: 2vh;
-    }
-
     .container-filters {
         height: 20vh;
     }
@@ -322,11 +318,6 @@ main {
 @media (max-width: 600px) {
     .filter {
         width: 85%;
-    }
-
-
-    main{
-        gap: 5vh;
     }
 
     .container-kpis-nested {

@@ -114,7 +114,7 @@ main {
 .button-filters {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10px;
     display: flex;
     align-items: center;
     font-size: 15px;

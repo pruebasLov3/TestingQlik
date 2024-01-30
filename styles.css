@@ -152,7 +152,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width: 80%;
 }
 
 .sub-container-kpis {
@@ -183,7 +183,6 @@ main {
     width: 50%;
     gap: 2%;
     display: flex;
-    flex-direction: column;
 }
 
 .width-kpi {

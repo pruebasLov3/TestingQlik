@@ -249,7 +249,7 @@ main {
 @media (max-width: 800px) {
 
     main{
-        gap: 10vh;
+        gap: 5vh;
     }
 
     .container-filters {

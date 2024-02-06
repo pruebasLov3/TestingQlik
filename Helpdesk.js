@@ -42,11 +42,10 @@ login().then(() => {
         $( "#closePopup" ).click( function () {
             $( '#popup' ).hide();
         } );
-        //open apps -- inserted here --
+        //Connection With App of Qlik Cloud
         var app = qlik.openApp( '956f26c7-ef70-41b1-85b0-22491717ba60', config );
        
-        //get objects -- inserted here --
-        //Fiters
+        //Load of ID objet App Qlik Cloud
         app.visualization.get('8c98dd8c-ef7c-4d83-815c-5d6d66cc38c8').then(function(vis){
         vis.show("QV01");
         } );
